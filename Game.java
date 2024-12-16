@@ -67,6 +67,7 @@ public class Game {
                     hiddenTitle.setCharAt(i, letter);
                 }
             }
+            attempts--;
             score += 10;
             System.out.println("¡Correcto! La letra '" + letter + "' está en el título.");
         } else {
