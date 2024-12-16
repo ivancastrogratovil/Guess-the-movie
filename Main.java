@@ -14,7 +14,7 @@ public class Main {
         Game game = new Game(selectedMovie);
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("\u00a1Bienvenido al juego de adivinar la pel\u00edcula!");
+        System.out.println("\uD83C\uDFAC\uD83C\uDFA5 ¡Bienvenido al juego de adivinar la película! \uD83C\uDFA5\uD83C\uDFAC");
         System.out.println("Tienes un m\u00e1ximo de 10 intentos para adivinar el t\u00edtulo.");
         System.out.println("Pel\u00edcula a adivinar: " + game.getHiddenTitle());
 
