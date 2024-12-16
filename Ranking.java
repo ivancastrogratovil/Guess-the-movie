@@ -24,7 +24,6 @@ public class Ranking {
     }
 
     public void displayRanking() {
-        System.out.println("Ranking:");
         for (int i = 0; i < players.size(); i++) {
             Player player = players.get(i);
             System.out.println((i + 1) + ". " + player.getNickname() + " - " + player.getScore());
